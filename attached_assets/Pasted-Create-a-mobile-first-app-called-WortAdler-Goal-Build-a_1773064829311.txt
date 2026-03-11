@@ -1,0 +1,218 @@
+Create a mobile-first app called WortAdler.
+
+Goal:
+Build a clean, friendly German vocabulary learning app for Turkish speakers. The app should feel simple, motivating, and easy to use, like a vocabulary-focused version of Duolingo, but calmer and more elegant.
+
+Brand:
+- App name: WortAdler
+- Slogan: Jeden Tag 10 neue Wörter in nur 3 Minuten
+- Mascot: a cute baby eagle called Worti
+- Style: warm, modern, friendly, motivating
+- Avoid: gambling app style, aggressive UI, childish overload
+
+Main learning idea:
+- 1 card = 1 word
+- 10 cards = 1 set
+- Users learn 10 new words per day
+- Focus on German vocabulary
+- Start with Turkish -> German and German -> Turkish card logic in the future, but for this first version use German -> Turkish cards
+- This first version should only include A1 adjective cards
+
+Target audience:
+- Turkish speakers learning German
+- Beginner level A1 to B1 in the future
+- First version only A1
+
+Core screens for version 1:
+1. Home screen
+2. Topic screen
+3. Card learning screen
+4. Set completed screen
+5. Topic completed celebration screen
+6. Profile / progress screen
+
+Navigation:
+- Bottom navigation with:
+  - Home
+  - Progress
+  - Profile
+
+Home screen:
+- Show app name WortAdler
+- Show small mascot Worti in a corner, not intrusive
+- Show total learned words
+- Show daily streak
+- Show today’s progress
+- Show available learning topics
+- For now show only one topic:
+  - A1 Adjektive
+- Inside this topic show:
+  - Set 1
+  - Set 2 locked
+  - Set 3 locked
+  - Set 4 locked
+  - Set 5 locked
+
+Topic structure:
+- Topic name: A1 Adjektive
+- Each set has 10 words
+- Only Set 1 is unlocked in this first version
+- When Set 1 is completed, Set 2 can become visible as the next step
+
+Card screen behavior:
+- Card front:
+  - German word only
+  - Large, centered text
+  - No image on front
+  - Soft pastel background
+  - Rounded card corners
+  - Friendly premium feel
+- Card back:
+  - Large illustration area on top
+  - Turkish meaning in large bold text
+  - Example sentence below in slightly smaller text
+  - Opposite word at the bottom
+- Tap card to flip
+- After flipping:
+  - swipe right = “Biliyorum”
+  - swipe left = “Bilmiyorum”
+  - swipe up = “Tekrar”
+- Right swipe removes card from current round
+- Left swipe sends card to end of round
+- Up swipe sends card to end of round
+- Show visual feedback:
+  - right = green with check
+  - left = red with cross
+  - up = yellow with repeat icon
+
+Learning feedback:
+- When user answers correctly, show short positive messages like:
+  - Doğru!
+  - Harika!
+  - Süper!
+- Keep this short and not annoying
+
+Progress rules:
+- Each set contains exactly 10 cards
+- At the end of a set show:
+  - correct count
+  - don’t know count
+  - repeat count
+  - success percentage
+  - button: “Sonraki Set”
+  - button: “Ana Sayfa”
+- When all cards in a topic are completed, show a bigger celebration screen:
+  - message that user completed A1 adjectives
+  - trophy icon
+  - motivational message
+  - shareable achievement card
+
+Gamification:
+- Daily streak visible
+- Total learned words visible
+- Word count milestones:
+  - 50 words
+  - 100 words
+  - 250 words
+- Worti mascot should celebrate small wins with subtle animations
+- Worti should feel supportive, calm, and motivating
+- No guilt-tripping tone
+
+Tone of mascot Worti:
+- Friendly
+- Calm
+- Encouraging
+- Personal
+- It may use the user’s name later, but for now generic short supportive messages are enough
+
+Design system:
+- Mobile-first
+- Clean spacing
+- Rounded cards
+- Friendly premium educational look
+- Main colors:
+  - soft blue
+  - warm yellow / gold accents
+  - white cards
+  - light pastel backgrounds
+- Avoid dark casino-like design
+- Avoid clutter
+- Use elegant modern typography
+
+Data for first version:
+Topic: A1 Adjektive
+Set 1 cards:
+1. groß
+   meaning: büyük
+   sentence: Der Elefant ist groß.
+   opposite: klein
+   image_hint: large elephant illustration
+
+2. klein
+   meaning: küçük
+   sentence: Die Maus ist klein.
+   opposite: groß
+   image_hint: small mouse illustration
+
+3. alt
+   meaning: yaşlı
+   sentence: Der Mann ist alt.
+   opposite: jung
+   image_hint: old man illustration
+
+4. jung
+   meaning: genç
+   sentence: Der Junge ist jung.
+   opposite: alt
+   image_hint: young boy illustration
+
+5. gut
+   meaning: iyi
+   sentence: Der Kuchen ist gut.
+   opposite: schlecht
+   image_hint: tasty cake illustration
+
+6. schlecht
+   meaning: kötü
+   sentence: Das Wetter ist schlecht.
+   opposite: gut
+   image_hint: stormy weather illustration
+
+7. teuer
+   meaning: pahalı
+   sentence: Das Auto ist teuer.
+   opposite: billig
+   image_hint: expensive car illustration
+
+8. billig
+   meaning: ucuz
+   sentence: Das T-Shirt ist billig.
+   opposite: teuer
+   image_hint: cheap t-shirt illustration
+
+9. schön
+   meaning: güzel
+   sentence: Die Blume ist schön.
+   opposite: hässlich
+   image_hint: beautiful flower illustration
+
+10. hässlich
+    meaning: çirkin
+    sentence: Das Haus ist hässlich.
+    opposite: schön
+    image_hint: ugly house illustration
+
+Technical request:
+- Build this as a clean working prototype
+- Use local mock data first
+- No backend required yet
+- Make the app feel real and interactive
+- Focus on UI and user flow first
+- Use simple local state for progress
+- Make the prototype clickable and testable
+
+Important:
+- Do not generate a generic template app
+- Follow the WortAdler concept closely
+- Make the card learning experience the heart of the product
+- The result should look like a serious startup prototype for a vocabulary learning app

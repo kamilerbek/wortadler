@@ -1,0 +1,109 @@
+Update the WortAdler daily learning flow using the existing code structure.
+
+IMPORTANT:
+- Do NOT redesign the UI
+- Do NOT change card layout
+- Do NOT change image layout
+- Do NOT change swipe behavior
+- Use the existing files and structure
+- Only improve the learning flow order
+
+Use these files as the main implementation points:
+- app/(tabs)/index.tsx
+- app/set-complete.tsx
+- context/learning.tsx
+
+GOAL:
+When the user opens the app, the learning order should be:
+
+1. Today's 10 new words
+2. Then review the words they failed today
+3. Then review past due words / older review words
+
+-----------------------------------
+1. HOME SCREEN PRIORITY
+-----------------------------------
+
+On the home screen, the first main action should guide the user to today's 10-word set.
+
+If today's 10-word set is not completed yet:
+- make the primary CTA clearly start today's set
+- do not show older review as the first action
+
+The app should feel like:
+"Bugünkü 10 kelimelik görevin hazır."
+
+-----------------------------------
+2. AFTER SET COMPLETION
+-----------------------------------
+
+After finishing a set, keep the current completion screen structure.
+
+But the logic should be:
+
+Step 1:
+Offer review of today's failed words first.
+
+Message:
+"Set tamamlandı 🎉
+Bugünün 10 kelimesini bitirdin.
+Bilmediğin kelimeleri tekrar etmek ister misin?"
+
+Buttons:
+- Tekrar Et
+- Yeni Set
+
+Behavior:
+- "Tekrar Et" repeats the full set
+- tapping the red Bilmiyorum box opens only today's failed words
+- tapping the green Biliyorum box opens only today's known words
+
+Important:
+The first suggested follow-up after a set should focus on today's failed words, not old review cards.
+
+-----------------------------------
+3. OLD REVIEW ONLY AFTER TODAY'S FLOW
+-----------------------------------
+
+Older review cards (past due review) should come AFTER the user finishes today's main flow.
+
+Meaning:
+- do not push old review before today's 10 words
+- do not push old review before today's failed-word review
+
+Only after the user completes today's set and optionally reviews failed words,
+the app may suggest:
+
+"Daha önce çalıştığın kelimeleri tekrar etmek ister misin?"
+
+-----------------------------------
+4. REVIEW ORDER LOGIC
+-----------------------------------
+
+In context/learning.tsx adjust the review logic so the order becomes:
+
+A. today's failed words
+B. today's unsure / partial mastery words
+C. older due review cards
+
+Daily review priority should not interrupt the main daily 10-word learning flow.
+
+-----------------------------------
+5. KEEP EXISTING STRUCTURE
+-----------------------------------
+
+Do NOT remove:
+- current stat boxes
+- current completion screen
+- current Biliyorum / Bilmiyorum review access
+- current progress tracking
+
+Only change the learning sequence and priority.
+
+The app should feel like this:
+
+Open app
+→ Start today's 10 words
+→ Finish set
+→ Review today's failed words
+→ Then optionally review older cards

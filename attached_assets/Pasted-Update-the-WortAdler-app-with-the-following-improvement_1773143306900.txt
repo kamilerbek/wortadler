@@ -1,0 +1,110 @@
+Update the WortAdler app with the following improvements.
+IMPORTANT: Do not redesign or break the existing card UI, swipe system, or grammar layout (Gegenteil, Komparativ, Superlativ). Only apply the changes below.
+
+--------------------------------------------------
+
+1. IMAGE RULE
+
+Images must match the example sentence.
+
+The illustration should represent the situation described in the sentence, not just the word.
+
+Example:
+Word: groß
+Sentence: Der Elefant ist groß.
+Image: a big elephant.
+
+Images must NOT resemble Duolingo's style or icons.
+Avoid owl-like characters or Duolingo-inspired illustrations.
+
+Use neutral illustrations or realistic photos that are unique to WortAdler.
+
+--------------------------------------------------
+
+2. LONG WORD DISPLAY
+
+Some German words are very long.
+
+Rules:
+- Words must NEVER break into multiple lines.
+- Words must NOT split with hyphens.
+
+If a word is too long:
+- automatically reduce the font size
+- keep the word on one line
+- ensure it fits fully inside the card.
+
+Example:
+"Verantwortungslosigkeit"
+
+Sentences can wrap to multiple lines if needed.
+
+--------------------------------------------------
+
+3. NEW LEARNING FLOW (REMOVE SAME-SESSION REPEAT)
+
+Do NOT repeat failed words during the same 10-word set.
+
+Users should be able to progress smoothly through the set without interruption.
+
+The learning flow should be:
+
+Step 1:
+User studies a 10-word set normally.
+
+Step 2:
+When the set finishes, show a completion screen.
+
+Example message:
+
+"Set tamamlandı 🎉
+Bugünün 10 kelimesini bitirdin.
+
+Bilmediğin kelimeleri tekrar etmek ister misin?"
+
+Buttons:
+- Tekrar Et
+- Yeni Set
+
+Step 3:
+If the user chooses "Tekrar Et":
+
+Open the "Bilmiyorum" list first.
+
+Users can move those words to "Biliyorum" by answering correctly.
+
+Goal:
+At the end of the day the user should ideally have no words left in the "Bilmiyorum" box.
+
+--------------------------------------------------
+
+4. DAILY REVIEW PHILOSOPHY
+
+The main goal of the app is:
+
+"Her gün 10 yeni kelime"
+
+But users can optionally study more.
+
+Next day, the app should suggest reviewing previously studied words.
+
+Example message:
+
+"Dün öğrendiğin kelimeleri tekrar etmek ister misin?"
+
+Review order:
+1. Bilmiyorum
+2. Tekrar
+3. a small portion of Biliyorum
+
+--------------------------------------------------
+
+5. KEEP CURRENT UI
+
+Do NOT change:
+- flashcard layout
+- swipe interactions
+- adjective grammar layout (↔ Gegenteil, + Komparativ, ++ Superlativ)
+- existing sets
+
+Only apply the improvements above.

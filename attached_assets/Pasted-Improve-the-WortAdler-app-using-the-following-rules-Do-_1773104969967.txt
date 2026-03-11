@@ -1,0 +1,116 @@
+Improve the WortAdler app using the following rules. Do NOT change working UI elements unless explicitly mentioned. Only apply the improvements below.
+
+GENERAL RULE  
+Do not redesign existing working features. If something already looks good and works well, keep it. Only implement the changes listed below.
+
+------------------------------------------------
+
+1. RESTORE THE ORIGINAL CARD INFO LAYOUT
+
+On the back side of adjective cards, restore the original bottom layout that shows three elements clearly:
+
+• Opposite word  
+• Comparative form  
+• Superlative form  
+
+Example layout:
+
+↔ klein  
++ größer  
+++ am größten  
+
+These should appear as small pill-style labels under the example sentence, just like the earlier version of the app. Do not hide them or merge them into other sections.
+
+------------------------------------------------
+
+2. USE THE WORTADLER EAGLE MASCOT AS THE MAIN LOGO
+
+Remove all small bird placeholder icons currently used in the UI.
+
+Replace them everywhere with the WortAdler eagle mascot logo.
+
+Use this mascot consistently in:
+
+• Splash / loading screen  
+• Top area of the home screen  
+• Profile avatar  
+• App icon  
+• Any branding location where a logo appears
+
+Do not use the simple flat bird icon anymore.
+
+------------------------------------------------
+
+3. STANDARDIZE THE ACTION BUTTON SYSTEM
+
+Use the same three buttons everywhere in the app with the same wording and colors.
+
+Buttons must always be:
+
+Bilmiyorum (red)  
+Tekrar (yellow)  
+Biliyorum (green)
+
+These three buttons must be used consistently on:
+
+• Flashcard study screen  
+• Home screen review boxes  
+• Any learning interaction
+
+Remove alternate labels like:
+“Bildiğim” or “Emin değilim”.
+
+The system must always use the same three options.
+
+------------------------------------------------
+
+4. IMPLEMENT THE 3-CORRECT LEARNING SYSTEM
+
+Each word must follow a 3-step mastery rule.
+
+User actions behave like this:
+
+If user taps Bilmiyorum
+→ the word goes to the Bilmiyorum list
+
+If user taps Biliyorum
+→ the word goes to the Tekrar list
+(it is NOT considered learned yet)
+
+A word becomes learned only after 3 correct answers.
+
+Learning flow:
+
+Bilmiyorum → Bilmiyorum list  
+Biliyorum → Tekrar list  
+3 correct answers → Bildiğim list
+
+------------------------------------------------
+
+5. ADD PROGRESS DOTS UNDER EACH WORD
+
+Each word must show three progress indicators under the word (small dots).
+
+Example:
+
+○ ○ ○
+
+Behavior:
+
+Wrong answer → turn one dot RED  
+Correct answer → turn one dot GREEN
+
+Example progression:
+
+🔴 ○ ○  
+🟢 ○ ○  
+🟢 🟢 ○  
+🟢 🟢 🟢
+
+When all three dots are green, the word automatically moves to the Bildiğim list.
+
+These dots visually show how close the user is to mastering the word.
+
+------------------------------------------------
+
+Make sure the UI remains clean, minimal, and consistent with the current WortAdler design.

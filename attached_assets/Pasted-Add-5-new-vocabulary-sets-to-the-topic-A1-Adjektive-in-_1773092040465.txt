@@ -1,0 +1,74 @@
+Add 5 new vocabulary sets to the topic "A1 Adjektive" in the WortAdler app.
+
+Each set must contain exactly 10 adjectives.
+
+Each card must include:
+- German word
+- Turkish meaning
+- A simple A1-level German example sentence
+- Opposite adjective
+- Illustration hint (for image generation)
+
+Keep the current card structure used in the app.
+
+Create these sets:
+
+SET 1 – Basic Opposites
+groß – büyük – Der Elefant ist groß. – opposite: klein – image: big elephant
+klein – küçük – Die Ameise ist klein. – opposite: groß – image: tiny ant
+alt – yaşlı – Der Mann ist alt. – opposite: jung – image: old man with cane
+jung – genç – Das Mädchen ist jung. – opposite: alt – image: young person
+gut – iyi – Der Film ist gut. – opposite: schlecht – image: thumbs up
+schlecht – kötü – Das Wetter ist schlecht. – opposite: gut – image: sad face
+schön – güzel – Die Blume ist schön. – opposite: hässlich – image: beautiful flower
+hässlich – çirkin – Das Monster ist hässlich. – opposite: schön – image: funny ugly monster
+teuer – pahalı – Das Auto ist teuer. – opposite: billig – image: luxury car
+billig – ucuz – Das T-Shirt ist billig. – opposite: teuer – image: discount label
+
+SET 2 – Physical Properties
+lang – uzun – Der Fluss ist lang. – opposite: kurz – image: long river
+kurz – kısa – Der Rock ist kurz. – opposite: lang – image: short skirt
+leicht – hafif – Die Tasche ist leicht. – opposite: schwer – image: light bag
+schwer – ağır – Der Koffer ist schwer. – opposite: leicht – image: heavy suitcase
+schnell – hızlı – Der Zug ist schnell. – opposite: langsam – image: fast train
+langsam – yavaş – Die Schildkröte ist langsam. – opposite: schnell – image: turtle
+stark – güçlü – Der Mann ist stark. – opposite: schwach – image: strong man
+schwach – zayıf – Der Akku ist schwach. – opposite: stark – image: low battery
+hoch – yüksek – Der Berg ist hoch. – opposite: niedrig – image: tall mountain
+niedrig – alçak – Der Tisch ist niedrig. – opposite: hoch – image: low table
+
+SET 3 – States & Feelings
+krank – hasta – Ich bin krank. – opposite: gesund – image: sick person
+gesund – sağlıklı – Sie ist gesund. – opposite: krank – image: healthy person
+müde – yorgun – Ich bin müde. – opposite: wach – image: sleepy person
+wach – uyanık – Der Student ist wach. – opposite: müde – image: awake student
+hungrig – aç – Ich bin hungrig. – opposite: satt – image: hungry person
+satt – tok – Nach dem Essen bin ich satt. – opposite: hungrig – image: full stomach
+voll – dolu – Das Glas ist voll. – opposite: leer – image: full glass
+leer – boş – Die Flasche ist leer. – opposite: voll – image: empty bottle
+sauber – temiz – Das Zimmer ist sauber. – opposite: schmutzig – image: clean room
+schmutzig – kirli – Die Schuhe sind schmutzig. – opposite: sauber – image: dirty shoes
+
+SET 4 – Weather & Temperature
+heiß – sıcak – Der Kaffee ist heiß. – opposite: kalt – image: hot coffee
+kalt – soğuk – Das Wasser ist kalt. – opposite: heiß – image: ice water
+warm – ılık – Das Wetter ist warm. – opposite: kühl – image: warm sun
+kühl – serin – Der Abend ist kühl. – opposite: warm – image: cool evening
+sonnig – güneşli – Heute ist es sonnig. – opposite: regnerisch – image: sun
+regnerisch – yağmurlu – Der Tag ist regnerisch. – opposite: sonnig – image: rain cloud
+windig – rüzgarlı – Es ist windig. – opposite: still – image: wind blowing
+still – sakin – Der See ist still. – opposite: windig – image: calm lake
+trocken – kuru – Die Straße ist trocken. – opposite: nass – image: dry road
+nass – ıslak – Meine Jacke ist nass. – opposite: trocken – image: wet jacket
+
+SET 5 – Everyday Usage
+neu – yeni – Das Handy ist neu. – opposite: alt – image: new phone
+offen – açık – Die Tür ist offen. – opposite: geschlossen – image: open door
+geschlossen – kapalı – Das Geschäft ist geschlossen. – opposite: offen – image: closed shop
+richtig – doğru – Die Antwort ist richtig. – opposite: falsch – image: correct answer
+falsch – yanlış – Die Adresse ist falsch. – opposite: richtig – image: wrong address
+einfach – kolay – Die Aufgabe ist einfach. – opposite: schwierig – image: easy task
+schwierig – zor – Der Test ist schwierig. – opposite: einfach – image: difficult test
+laut – gürültülü – Die Musik ist laut. – opposite: leise – image: loud speaker
+leise – sessiz – Das Kind spricht leise. – opposite: laut – image: quiet child
+wichtig – önemli – Die Prüfung ist wichtig. – opposite: unwichtig – image: important document

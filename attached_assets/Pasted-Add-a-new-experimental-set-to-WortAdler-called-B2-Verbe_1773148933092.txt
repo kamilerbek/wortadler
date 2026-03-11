@@ -1,0 +1,124 @@
+Add a new experimental set to WortAdler called:
+
+B2 Verben Test
+
+IMPORTANT:
+- Do NOT change the current card design
+- Do NOT change the current image/photo system
+- Do NOT redesign any existing cards
+- Do NOT modify A1/A2/B1 sets
+- Only add this new B2 test set using the existing card structure
+
+For this B2 test set, use a richer back-side format for verbs:
+
+Back side order:
+1. Turkish meaning (keep it at the top as it already exists)
+2. Three short German example sentences
+3. Under each sentence, add a Turkish explanation in parentheses and italic style
+4. Perfekt form at the bottom
+
+Keep the card clean and readable.
+Do not overcrowd the card.
+Use spacing between the meaning and the sentence section.
+
+Use these 10 verbs:
+
+1. beeinflussen
+Meaning: etkilemek
+Sentence 1: Soziale Medien beeinflussen unser Verhalten.
+Turkish 1: (Sosyal medya davranışımızı etkiler.)
+Sentence 2: Die Entscheidung beeinflusst das Ergebnis stark.
+Turkish 2: (Karar sonucu güçlü şekilde etkiler.)
+Sentence 3: Die Nachricht hat viele Menschen beeinflusst.
+Turkish 3: (Haber birçok insanı etkiledi.)
+Perfekt: hat beeinflusst
+
+2. vermeiden
+Meaning: kaçınmak
+Sentence 1: Wir sollten Fehler vermeiden.
+Turkish 1: (Hatalardan kaçınmalıyız.)
+Sentence 2: Er vermeidet es, über Politik zu sprechen.
+Turkish 2: (Politika hakkında konuşmaktan kaçınıyor.)
+Sentence 3: Sie hat unnötige Kosten vermieden.
+Turkish 3: (Gereksiz masraflardan kaçındı.)
+Perfekt: hat vermieden
+
+3. durchführen
+Meaning: gerçekleştirmek
+Sentence 1: Die Firma führt ein neues Projekt durch.
+Turkish 1: (Şirket yeni bir proje yürütüyor.)
+Sentence 2: Die Studie wurde erfolgreich durchgeführt.
+Turkish 2: (Çalışma başarıyla gerçekleştirildi.)
+Sentence 3: Die Experten haben eine Analyse durchgeführt.
+Turkish 3: (Uzmanlar bir analiz gerçekleştirdi.)
+Perfekt: hat durchgeführt
+
+4. feststellen
+Meaning: tespit etmek
+Sentence 1: Der Arzt stellt eine Krankheit fest.
+Turkish 1: (Doktor bir hastalığı tespit eder.)
+Sentence 2: Die Polizei stellte einen Fehler fest.
+Turkish 2: (Polis bir hata tespit etti.)
+Sentence 3: Wir haben festgestellt, dass das Problem größer ist.
+Turkish 3: (Sorunun daha büyük olduğunu tespit ettik.)
+Perfekt: hat festgestellt
+
+5. ermöglichen
+Meaning: mümkün kılmak
+Sentence 1: Neue Technologien ermöglichen viele Innovationen.
+Turkish 1: (Yeni teknolojiler birçok yeniliği mümkün kılar.)
+Sentence 2: Das Internet ermöglicht schnellen Zugang zu Informationen.
+Turkish 2: (İnternet bilgiye hızlı erişim sağlar.)
+Sentence 3: Diese Entscheidung hat neue Chancen ermöglicht.
+Turkish 3: (Bu karar yeni fırsatları mümkün kıldı.)
+Perfekt: hat ermöglicht
+
+6. erreichen
+Meaning: ulaşmak
+Sentence 1: Er hat sein Ziel erreicht.
+Turkish 1: (Hedefine ulaştı.)
+Sentence 2: Wir möchten mehr Menschen erreichen.
+Turkish 2: (Daha fazla insana ulaşmak istiyoruz.)
+Sentence 3: Das Unternehmen hat große Erfolge erreicht.
+Turkish 3: (Şirket büyük başarılar elde etti.)
+Perfekt: hat erreicht
+
+7. verhindern
+Meaning: engellemek
+Sentence 1: Die Polizei verhindert einen Unfall.
+Turkish 1: (Polis bir kazayı engeller.)
+Sentence 2: Maßnahmen verhindern größere Probleme.
+Turkish 2: (Önlemler daha büyük sorunları engeller.)
+Sentence 3: Die Feuerwehr hat eine Katastrophe verhindert.
+Turkish 3: (İtfaiye bir felaketi engelledi.)
+Perfekt: hat verhindert
+
+8. verbessern
+Meaning: geliştirmek / iyileştirmek
+Sentence 1: Wir müssen unsere Leistung verbessern.
+Turkish 1: (Performansımızı geliştirmeliyiz.)
+Sentence 2: Neue Methoden verbessern die Qualität.
+Turkish 2: (Yeni yöntemler kaliteyi artırır.)
+Sentence 3: Das Training hat seine Fähigkeiten verbessert.
+Turkish 3: (Antrenman onun becerilerini geliştirdi.)
+Perfekt: hat verbessert
+
+9. vergleichen
+Meaning: karşılaştırmak
+Sentence 1: Man sollte verschiedene Angebote vergleichen.
+Turkish 1: (Farklı teklifleri karşılaştırmak gerekir.)
+Sentence 2: Der Bericht vergleicht mehrere Studien.
+Turkish 2: (Rapor birkaç çalışmayı karşılaştırıyor.)
+Sentence 3: Wir haben die Ergebnisse miteinander verglichen.
+Turkish 3: (Sonuçları birbiriyle karşılaştırdık.)
+Perfekt: hat verglichen
+
+10. unterstützen
+Meaning: desteklemek
+Sentence 1: Die Familie unterstützt ihn.
+Turkish 1: (Ailesi onu destekliyor.)
+Sentence 2: Viele Menschen unterstützen das Projekt.
+Turkish 2: (Birçok insan projeyi destekliyor.)
+Sentence 3: Seine Freunde haben ihn immer unterstützt.
+Turkish 3: (Arkadaşları onu her zaman destekledi.)
+Perfekt: hat unterstützt

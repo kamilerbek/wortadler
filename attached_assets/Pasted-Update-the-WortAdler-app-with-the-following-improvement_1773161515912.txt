@@ -1,0 +1,90 @@
+Update the WortAdler app with the following improvements.
+
+IMPORTANT:
+Do NOT redesign the overall UI.
+Do NOT change card layout, image system, swipe behavior, or set structure.
+Only apply the specific improvements below.
+
+--------------------------------------------------
+1. STREAK SYSTEM
+--------------------------------------------------
+
+Add a real streak system to the app.
+
+Rules:
+- If the user completes the daily 10-word goal, the streak increases by 1.
+- If the user misses a day, the streak resets.
+- Show the streak clearly on the home screen.
+
+Preferred display style:
+🔥 X gün seri
+Bugün: Y/10 kelime
+
+Keep this area clean and minimal.
+Do not overload it with too much text.
+
+--------------------------------------------------
+2. CORRECT WORD TYPE LABEL
+--------------------------------------------------
+
+Fix the word type label shown under each word.
+
+The label must match the real word type:
+
+- adjectives → Adjektiv
+- verbs → Verb
+- nouns → Nomen
+
+Example:
+- "abhängen von" must show "Verb", not "Adjektiv"
+- adjective cards must show "Adjektiv"
+
+Make sure this is driven by the actual card type, not hardcoded incorrectly.
+
+--------------------------------------------------
+3. MAKE "BEISPIELE" MORE VISIBLE
+--------------------------------------------------
+
+Improve the visual clarity of the "Beispiele" title.
+
+Current problem:
+It looks too faint and weak.
+
+New style:
+- slightly darker
+- slightly more visible
+- still elegant and minimal
+- keep it smaller than the main word
+
+Do not make it too bold or too large.
+
+--------------------------------------------------
+4. TRENNBARE LABEL
+--------------------------------------------------
+
+For trennbare verbs, replace the current label:
+
+"Trennbar: Ja"
+
+with simply:
+
+"Trennbare"
+
+This should appear as a clean small grammar label in the lower grammar section.
+
+Do not use a yes/no format.
+
+--------------------------------------------------
+5. KEEP EVERYTHING ELSE
+--------------------------------------------------
+
+Do NOT change:
+- card proportions
+- examples layout
+- adjective grammar layout
+- verb grammar layout
+- button texts
+- review boxes
+- image placement
+
+Only apply the improvements above.

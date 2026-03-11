@@ -1,0 +1,123 @@
+Update the WortAdler learning algorithm and card interaction system.
+
+IMPORTANT:
+Do not redesign the current UI unless required for this logic.
+Keep the current flashcard visual style.
+Only change the learning logic and button system below.
+
+1. CARD ACTIONS
+Remove the "Tekrar" action from the flashcard screen.
+The user should only have 2 actions after flipping the card:
+
+- Bilmiyorum
+- Biliyorum
+
+Interaction flow:
+- user sees front side
+- user taps to flip the card
+- user swipes or presses:
+  - left = Bilmiyorum
+  - right = Biliyorum
+
+2. 3-CORRECT MASTERY RULE
+A word is learned only after 3 correct answers.
+
+Each card must show 3 small progress indicators (dots) under the word.
+
+Rules:
+- Correct answer = one green dot
+- Wrong answer = one red dot
+
+Example:
+green green green = learned
+
+3. CATEGORY LOGIC
+Use these 3 categories in the app:
+
+- Bilmiyorum
+- Tekrar
+- Biliyorum
+
+How words move:
+
+A) If the user answers "Bilmiyorum"
+→ the word goes into the Bilmiyorum category
+
+B) If the user answers "Biliyorum"
+→ add one green progress
+→ but do NOT send it directly to Biliyorum
+→ until it reaches 3 green correct answers, it should stay in Tekrar
+
+C) If a word has mixed progress (both correct and wrong history)
+→ it should belong to the Tekrar category
+
+D) If a word reaches 3 green correct answers
+→ move it to the Biliyorum category
+
+Summary:
+- all not-mastered but attempted words = Tekrar
+- full failures = Bilmiyorum
+- 3 green correct = Biliyorum
+
+4. SAME-SESSION REPEAT LOGIC
+Do not repeat failed cards immediately.
+If the user gets a word wrong, do NOT show it again right away.
+
+Instead:
+- show it again after 3–4 other cards
+
+Also:
+- do not give all 3 green correct attempts in a row for the same word
+- spread repeated cards naturally through the session
+
+Suggested behavior:
+- wrong word returns after 3–4 cards
+- partially learned words return later in the same session
+- avoid repetition fatigue
+
+5. END-OF-SET BEHAVIOR
+When a set is finished:
+- show the completion message
+- then offer to review uncertain words
+
+Message:
+"Set tamamlandı 🎉
+Şimdi emin olmadığın ve bilmediğin kelimeleri tekrar edelim."
+
+If user accepts:
+- first review Bilmiyorum words
+- then review Tekrar words
+
+6. NEXT-DAY REVIEW LOGIC
+On the next day, offer a daily review.
+
+Message:
+"Dün öğrendiğin kelimeleri tekrar etmek ister misin?"
+
+Review order:
+1. Bilmiyorum
+2. Tekrar
+3. a small number of Biliyorum words
+
+This way the user reviews:
+- difficult words first
+- uncertain words next
+- known words occasionally
+
+7. HOME SCREEN CATEGORY ACCESS
+The 3 home screen boxes must work like review folders:
+
+- Bilmiyorum
+- Tekrar
+- Biliyorum
+
+When tapped, open the relevant word list and let the user study those words again.
+
+8. KEEP THE SYSTEM SIMPLE FOR THE USER
+The user should not see complex algorithm details.
+The system should feel simple:
+- flip
+- choose Bilmiyorum or Biliyorum
+- app handles the learning intelligently in the background
+
+Make this system feel smooth, clean, and natural for a vocabulary learning app.

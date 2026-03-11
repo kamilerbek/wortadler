@@ -1,0 +1,208 @@
+Add A1 German verb sets to the WortAdler app.
+
+LEVEL
+A1
+
+CATEGORY
+Verben
+
+Create 12 sets with 10 verbs each (total 120 verbs).
+
+IMPORTANT:
+Do NOT change any UI, layout, card structure, styling, or existing logic.
+
+Use the same card format already used in the B2 verb cards.
+
+Card structure must be:
+
+German verb
+Turkish meaning
+
+Perfekt: ...
+Präteritum: ...
+
+Example sentence (very simple A1 German sentence)
+
+Also generate a relevant illustration image for each verb based on the meaning.
+
+Keep sentences short and simple (A1 level).
+
+------------------------------------------------
+
+SET 1
+
+sein
+haben
+gehen
+kommen
+machen
+sehen
+sagen
+fragen
+lernen
+arbeiten
+
+------------------------------------------------
+
+SET 2
+
+wohnen
+leben
+lieben
+mögen
+spielen
+lesen
+schreiben
+sprechen
+hören
+essen
+
+------------------------------------------------
+
+SET 3
+
+trinken
+kochen
+kaufen
+bezahlen
+nehmen
+geben
+bringen
+holen
+finden
+suchen
+
+------------------------------------------------
+
+SET 4
+
+fahren
+laufen
+reisen
+ankommen
+abfahren
+einsteigen
+aussteigen
+mitkommen
+bleiben
+besuchen
+
+------------------------------------------------
+
+SET 5
+
+beginnen
+enden
+öffnen
+schließen
+treffen
+helfen
+zeigen
+erklären
+versuchen
+planen
+
+------------------------------------------------
+
+SET 6
+
+denken
+glauben
+wissen
+verstehen
+merken
+vergessen
+erinnern
+fragen
+antworten
+lernen
+
+------------------------------------------------
+
+SET 7
+
+üben
+wiederholen
+bestehen
+organisieren
+probieren
+kontrollieren
+verbessern
+erklären
+planen
+arbeiten
+
+------------------------------------------------
+
+SET 8
+
+umziehen
+mieten
+bauen
+reparieren
+arbeiten
+leben
+wohnen
+bleiben
+finden
+suchen
+
+------------------------------------------------
+
+SET 9
+
+fühlen
+lieben
+hassen
+mögen
+lachen
+weinen
+hoffen
+wünschen
+träumen
+denken
+
+------------------------------------------------
+
+SET 10
+
+regnen
+schneien
+scheinen
+werden
+bleiben
+passieren
+funktionieren
+beginnen
+enden
+ändern
+
+------------------------------------------------
+
+SET 11
+
+lernen
+studieren
+fragen
+antworten
+erzählen
+erklären
+verstehen
+kennen
+kennenlernen
+meinen
+
+------------------------------------------------
+
+SET 12
+
+brauchen
+wollen
+müssen
+dürfen
+sollen
+möchten
+versuchen
+schaffen
+bekommen
+verkaufen
